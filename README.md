@@ -1,5 +1,7 @@
  # Recommendation Agent Prototype
 
+ This is just a prototype of what we shall be building on from here. 
+
 This repository contains a Jupyter notebook exploring the **Amazon product reviews dataset** and building initial recommendation-oriented analyses and models.
 
 ## Contents
@@ -21,7 +23,7 @@ The notebook primarily uses:
 - `seaborn`  
 - `scipy`  
   
-You can install the core dependencies with:
+The core dependencies are installed with:
 
 ```bash
 pip install pandas numpy matplotlib seaborn scipy
@@ -29,11 +31,8 @@ pip install pandas numpy matplotlib seaborn scipy
 
 ## Data
 
-The notebook expects an Amazon reviews CSV file, currently referenced with a local path in one of the cells:
-
-```python
-df = pd.read_csv(r"C:\\Users\\rinka\\Desktop\\Recommendation\\amazon.csv\\amazon.csv")
-```
+The dataset can be downloaded from here 
+https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset
 
 To run this notebook on your own machine:
 
