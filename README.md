@@ -27,9 +27,9 @@ pip install pandas numpy matplotlib seaborn scipy scikit-learn nltk xgboost ligh
 
 The notebooks expect an Amazon reviews CSV file (`amazon.csv`). Currently, the notebooks reference a local path:
 
-```python
-df = pd.read_csv(r"C:\\Users\\rinka\\Desktop\\Recommendation\\amazon.csv\\amazon.csv")
-```
+And it can be downloaded from 
+
+```path = kagglehub.dataset_download("karkavelrajaj/amazon-sales-dataset")```
 
 To run these notebooks:
 - Place the `amazon.csv` file in the expected path (or update the path in the notebook).
